@@ -3,3 +3,131 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,300;0,400;0,500;1,200&display=swap');
+
+hr {
+  width: 100px;
+  margin: 0 auto;
+  height: 5px;
+  background-color: #0fe1c9;
+  border: none;
+}
+.navbar {
+  background-color: rgba(240, 239, 239, 0.991);
+  width: 100%;
+  height: 70px;
+  display: flex;
+  justify-content: space-between;
+}
+.picturename {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  padding-left: 20px;
+  
+}
+.picturename p {
+  font-size: 18px;
+  color: black;
+  font-family: 'Montserrat', sans-serif;
+}
+.picturename img{
+  width: 8%;
+  border-radius: 50%;
+  padding: 10px;
+}
+.navbar ul{
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  margin-right: 40px;
+  
+}
+.navbar ul a{
+  padding: 20px;
+  color: black;
+  text-decoration: none;
+  display: flex;
+  font-size: 18px;
+  text-transform: uppercase;
+  font-family: 'Montserrat', sans-serif;
+}
+.navbar ul a:hover {
+  color: #0fe1c9;
+}
+.contactli {
+  background-color: #0fe1c9;
+}
+.contactli a:hover {
+  color: black;
+}
+/* -------------------------------------------------HEADER--------------------------------------------------- */
+.header {
+  background-image: url(./assets/fondecran.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+.header h1{
+  text-align: center;
+  padding-top: 200px;
+  font-size: 70px;
+  letter-spacing: 2px;
+  font-family: 'Montserrat', sans-serif;
+}
+.header p {
+  text-align: center;
+  font-size: 25px;
+  font-family: 'Montserrat', sans-serif;
+}
+.projectbutton {
+  display: flex;
+  margin: 0 auto;
+  margin-top: 50px;
+  padding: 15px 30px;
+  background-color: #0fe1c9;
+  border: none;
+  border-radius: 10px;
+}
+.projectbutton a {
+  text-decoration: none;
+  font-size: 20px;
+}
+
+/* -------------------------------------------------SOCIAL--------------------------------------------------- */
+
+.sociallink {
+  display: flex;
+  flex-direction: column;
+  margin-top: 80px;
+  background-color: #edf0f0;
+  width: fit-content;
+}
+.sociallink a {
+  padding: 10px;
+
+}
+.sociallink a img{
+  width: 40px; 
+}
+
+/* -------------------------------------------------ABOUT--------------------------------------------------- */
+
+.about h1{
+  margin-top: 40px;
+  text-align: center;
+  text-transform: uppercase;
+}
+.about p {
+  margin-top: 30px;
+  width: 50%;
+  margin: 0 auto;
+  margin-top: 20px;
+  font-size: 20px;
+  letter-spacing: 2px;
+  text-align: center;
+}
+
